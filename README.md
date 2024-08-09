@@ -151,3 +151,25 @@ This project is licensed under the [MIT license].
 ## Contribution
 
 Unless you explicitly state otherwise, any contribution you intentionally submit for inclusion in *depict* shall be licensed as MIT without any additional terms or conditions.
+
+## Specification:
+## Entities:
+
+Entities are defined by space-separated words before a colon (:) or by nesting within square brackets ([ and ]).
+Multiple words connected by a hyphen (-) without spaces indicate a single entity.
+Nesting:
+
+Entities can be nested inside other entities using square brackets ([ and ]).
+Example: microwave [ magnetron ] means magnetron is nested within microwave.
+## Actions:
+
+Actions between entities are specified by listing one or more controlling entities followed by one or more target entities, followed by a colon (:) and a space-separated list of action names.
+Example: person microwave: open close start stop means person controls microwave with the actions open, close, start, and stop.
+## Feedback:
+
+Feedback is specified after a slash (/), indicating actions that occur in reverse.
+Example: microwave person: / beep means microwave sends feedback (beep) to person.
+Row Placement:
+
+A hyphen (-) followed by an entity indicates that the entity should be placed on the same row as the previous entity.
+Example: food warm-food -: becomes means warm-food is placed horizontally with food.
