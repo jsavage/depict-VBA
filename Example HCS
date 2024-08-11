@@ -1,1 +1,34 @@
-Example HCS
+- Command-Authority Early-Warning Radar
+Command-Authority Operators: Doctrine, Engagement Criteria, Training, workarounds / Exercise-results Readiness Status Wargame-resultsHeartbeat
+Early-Warning Fire-Control: Launch-Report, Status-report / Status Request
+Operators Fire-Control: Engage-Target, Operational Mode Change, Readiness State Change, Weapons Free, Weapons Hold
+Radar Fire-Control: Status, Track-Data
+Launch-Station Fire-Control: Command Responses,System Starrtus, Launch Report
+Fire-Control Launch-Station: Fire-disable
+Launch-Station Launcher :Launch-position
+Launcher Launch-Station : Launcher-position
+
+- Command-Auth Early-Warning Radar
+Command-Auth Operators: Doctrine, Engagement Criteria, Training, workarounds / Exercise-results Readiness Status Wargame-results Heartbeat
+Early-Warning Fire-Control: Launch-Report, Status-report / Status Request
+Operators Fire-Control: Engage-Target, Operational Mode Change, Readiness State Change, Weapons Free, Weapons Hold
+Radar Fire-Control: Status, Track-Data
+Launch-Stn Fire-Control: Command Responses,System Status, Launch Report
+Fire-Control [Launch-Stn]
+Fire-Control Launch-Stn: Fire-disabled
+Launch-Stn Launcher :Launch-posn
+Launcher Launch-Stn :Launcher-posn
+
+- Command-Auth Early-Warning Radar
+Command-Auth Operators: Doctrine, Engagement Criteria, Training, workarounds / Exercise-results Readiness Status Wargame-results Heartbeat
+Early-Warning Fire-Control: Launch-Report, Status-report / Status Request
+Operators Fire-Control: Engage-Target, Operational Mode Change, Readiness State Change, Weapons Free, Weapons Hold
+Radar Fire-Control: Status, Track-Data
+Launch-Stn Fire-Control: Command Responses,System Status, Launch Report
+Fire-Control Launch-Stn: Fire-disabled
+Launch-Stn Launcher :Launch-posn Do-BIT
+Launcher Launch-Stn :Launcher-posn Get-BIT
+Launch-Stn Flight-Computer: PWR Abort Arm Launch
+Flight-Computer Launch-Stn: BIT-rep Health-Status
+Flight-Computer Intercept-HW: Arm Safe Ignite / BIT-rep Safe-and-Arm-status
+
